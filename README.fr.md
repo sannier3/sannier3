@@ -1,4 +1,4 @@
-**__Langues du README__** [![English](https://img.shields.io/badge/lang-English-lightgrey.svg)](README.md) [![Français](https://img.shields.io/badge/lang-Français-blue.svg)](README.fr.md) ![License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
+**__Langues du README__** [![English](https://img.shields.io/badge/lang-English-lightgrey.svg)](README.md) [![Français](https://img.shields.io/badge/lang-Français-blue.svg)](README.fr.md)
 
 <h1 align="center">Salut, moi c'est JB</h1>
 
