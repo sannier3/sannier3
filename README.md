@@ -1,92 +1,94 @@
-<h1 align="center">Salut, moi c'est JB</h1>
+****Readme Languages****
+
+<h1 align="center">Hi, I'm JB</h1>
 
 <p align="center">
-  <strong>Technicien informatique, bidouilleur infra et créateur d'outils auto-hébergés.</strong>
+  <strong>IT technician, infrastructure tinkerer, and builder of self-hosted tools.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/sannier3">
-    <img src="https://komarev.com/ghpvc/?username=sannier3&label=Vues%20du%20profil&color=0e75b6&style=flat" alt="Vues du profil" />
+    <img src="https://komarev.com/ghpvc/?username=sannier3&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
   </a>
   <a href="https://github.com/sannier3?tab=followers">
-    <img src="https://img.shields.io/github/followers/sannier3?label=Followers&style=flat" alt="Followers GitHub" />
+    <img src="https://img.shields.io/github/followers/sannier3?label=Followers&style=flat" alt="GitHub followers" />
   </a>
   <a href="https://jbsan.fr">
-    <img src="https://img.shields.io/badge/Site-jbsan.fr-blue?style=flat" alt="Site personnel" />
+    <img src="https://img.shields.io/badge/Website-jbsan.fr-blue?style=flat" alt="Personal website" />
   </a>
 </p>
 
 ---
 
-## À propos
+## About me
 
-Je suis un technicien informatique basé en Auvergne, curieux, orienté terrain, et toujours en train d'améliorer mon infrastructure.
+I am an IT technician based in Auvergne, France. I am curious, hands-on, and always working on improving my infrastructure.
 
-J'aime construire des outils concrets pour simplifier l'administration système, automatiser les tâches répétitives, rendre les services internes plus propres, et garder le contrôle sur ce que j'héberge.
+I like building practical tools that simplify system administration, automate repetitive tasks, make internal services cleaner, and help me stay in control of what I host.
 
-Mes sujets principaux :
+My main areas of interest:
 
-- virtualisation avec Proxmox VE
-- Active Directory, LDAP et outils intranet
-- réseau, firewalling, MikroTik et WireGuard
-- téléphonie IP, Asterisk, Yeastar et routage d'appels
-- automatisation, dashboards, scripts et services auto-hébergés
-- Docker, Node.js, PHP, .NET, Bash, TypeScript
-
----
-
-## Ce que je construis
-
-Je développe surtout des outils pensés pour des usages réels :
-
-- scripts d'administration système avec garde-fous
-- interfaces web pour simplifier des plateformes complexes
-- outils intranet pour équipes IT
-- dashboards de supervision ou d'exploitation
-- ponts entre services qui ne sont pas faits pour communiquer ensemble
-- projets orientés homelab, PME et environnements techniques internes
+* virtualization with Proxmox VE
+* Active Directory, LDAP, and intranet tools
+* networking, firewalling, MikroTik, and WireGuard
+* VoIP, Asterisk, Yeastar, and call routing
+* automation, dashboards, scripts, and self-hosted services
+* Docker, Node.js, PHP, .NET, Bash, and TypeScript
 
 ---
 
-## Projets mis en avant
+## What I build
+
+I mainly develop tools designed for real-world use cases:
+
+* system administration scripts with safety checks
+* web interfaces to simplify complex platforms
+* intranet tools for IT teams
+* monitoring and operations dashboards
+* bridges between services that were not originally meant to work together
+* projects focused on homelabs, SMBs, and internal technical environments
+
+---
+
+## Featured projects
 
 ### Proxmox
 
-| Projet | Description |
-| --- | --- |
-| [proxmox-vmid-updater](https://github.com/sannier3/proxmox-vmid-updater) | Script interactif pour renommer proprement les VMID de VM/LXC Proxmox, avec vérifications, logs, rollback, volumes, snapshots, backups, HA et firewall. |
-| [ProxPanel](https://github.com/sannier3/ProxPanel) | Dashboard web alternatif pour Proxmox VE, avec interface type bureau, gestion VM/LXC, métriques, consoles et outils cluster. |
-| [ProxmoxVE](https://github.com/sannier3/ProxmoxVE) | Fork de scripts communautaires pour Proxmox VE. |
+| Project                                                                  | Description                                                                                                                                    |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [proxmox-vmid-updater](https://github.com/sannier3/proxmox-vmid-updater) | Interactive script to safely rename Proxmox VM/LXC VMIDs, with checks, logs, rollback, volumes, snapshots, backups, HA, and firewall handling. |
+| [ProxPanel](https://github.com/sannier3/ProxPanel)                       | Alternative web dashboard for Proxmox VE, with a desktop-like interface, VM/LXC management, metrics, consoles, and cluster tools.              |
+| [ProxmoxVE](https://github.com/sannier3/ProxmoxVE)                       | Fork of community scripts for Proxmox VE.                                                                                                      |
 
-### Active Directory et intranet
+### Active Directory and intranet
 
-| Projet | Description |
-| --- | --- |
-| [ADSelfService](https://github.com/sannier3/ADSelfService) | Plateforme intranet open source pour Active Directory, avec API .NET 8 et client PHP pour gestion des comptes, mots de passe, groupes, OU et droits. |
+| Project                                                    | Description                                                                                                                                           |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ADSelfService](https://github.com/sannier3/ADSelfService) | Open source intranet platform for Active Directory, with a .NET 8 API and PHP client for account management, passwords, groups, OUs, and permissions. |
 
-### Réseau et sécurité
+### Networking and security
 
-| Projet | Description |
-| --- | --- |
-| [mikrotik-geoip-block-manager](https://github.com/sannier3/mikrotik-geoip-block-manager) | Générateur de règles Geo-IP pour MikroTik RouterOS v7+, avec dashboard temps réel pour visualiser le trafic bloqué ou autorisé. |
-| [wg-portal](https://github.com/sannier3/wg-portal) | Fork autour d'un portail de configuration WireGuard avec connexion LDAP. |
+| Project                                                                                  | Description                                                                                                           |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [mikrotik-geoip-block-manager](https://github.com/sannier3/mikrotik-geoip-block-manager) | Geo-IP rule generator for MikroTik RouterOS v7+, with a real-time dashboard to visualize blocked and allowed traffic. |
+| [wg-portal](https://github.com/sannier3/wg-portal)                                       | Fork around a WireGuard configuration portal with LDAP login support.                                                 |
 
-### Télécom
+### Telecom
 
-| Projet | Description |
-| --- | --- |
-| [TELE-FLUX](https://github.com/sannier3/TELE-FLUX) | Concepteur visuel et simulateur interactif de routage télécom pour cartographier, auditer et exporter des plans de flux d'appels. |
-| [DISCORD-SIP-BRIDGE](https://github.com/sannier3/DISCORD-SIP-BRIDGE) | Bot Discord reliant un salon vocal à une ligne téléphonique via Asterisk ARI, WebSocket audio et PBX SIP type Yeastar. |
+| Project                                                              | Description                                                                                                                     |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [TELE-FLUX](https://github.com/sannier3/TELE-FLUX)                   | Visual telecom routing designer and interactive simulator to map, audit, and export call flow diagrams.                         |
+| [DISCORD-SIP-BRIDGE](https://github.com/sannier3/DISCORD-SIP-BRIDGE) | Discord bot that connects a voice channel to a phone line through Asterisk ARI, WebSocket audio, and a SIP PBX such as Yeastar. |
 
-### Automatisation et veille
+### Automation and monitoring
 
-| Projet | Description |
-| --- | --- |
-| [ISO-WATCHER](https://github.com/sannier3/ISO-WATCHER) | Service de surveillance de releases ISO sur miroirs HTTP/FTP, avec scans planifiés, API REST, notifications et stockage local optionnel. |
+| Project                                                | Description                                                                                                                     |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| [ISO-WATCHER](https://github.com/sannier3/ISO-WATCHER) | ISO release monitoring service for HTTP/FTP mirrors, with scheduled scans, REST API, notifications, and optional local storage. |
 
 ---
 
-## Stack que j'utilise souvent
+## Stack I often use
 
 <p>
   <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
@@ -115,33 +117,24 @@ Je développe surtout des outils pensés pour des usages réels :
 
 ---
 
-## Ma façon de travailler
+## How I work
 
-- faire simple avant de faire complexe
-- documenter assez pour pouvoir reprendre un projet plusieurs mois après
-- prévoir les cas d'échec avant de toucher à une infra
-- privilégier l'auto-hébergement quand c'est raisonnable
-- transformer les galères terrain en outils réutilisables
-- garder une approche pratique, testable et maintenable
-
----
-
-## Stats GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sannier3&show_icons=true&theme=transparent&hide_border=true&locale=fr" alt="Statistiques GitHub" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sannier3&layout=compact&theme=transparent&hide_border=true&locale=fr" alt="Langages principaux" />
-</p>
+* keep things simple before making them complex
+* document enough to be able to come back to a project months later
+* plan for failure before touching infrastructure
+* prefer self-hosting when it makes sense
+* turn real-world technical problems into reusable tools
+* keep a practical, testable, and maintainable approach
 
 ---
 
-## Me trouver
+## Find me
 
-- Site : [jbsan.fr](https://jbsan.fr)
-- GitHub : [@sannier3](https://github.com/sannier3)
+* Website: https://jbsan.fr
+* GitHub: https://github.com/sannier3
 
 ---
 
 <p align="center">
-  <em>J'apprends, je teste, je casse parfois, puis je documente pour faire mieux au prochain déploiement.</em>
+  <em>I learn, I test, I break things sometimes, then I document them to make the next deployment better.</em>
 </p>
