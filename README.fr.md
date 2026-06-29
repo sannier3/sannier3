@@ -126,15 +126,6 @@ Je développe surtout des outils pensés pour des usages réels :
 
 ---
 
-## Stats GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sannier3&show_icons=true&theme=transparent&hide_border=true&locale=fr" alt="Statistiques GitHub" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sannier3&layout=compact&theme=transparent&hide_border=true&locale=fr" alt="Langages principaux" />
-</p>
-
----
-
 ## Me trouver
 
 - Site : [jbsan.fr](https://jbsan.fr)
